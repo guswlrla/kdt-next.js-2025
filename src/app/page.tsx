@@ -75,10 +75,8 @@ function Login() {
         {/* 사용자 이메일 표시 */}
         <p className="mb-4">이메일: {user?.email}</p>
         
-        <button
-          onClick={signOut} // 버튼 클릭 시 로그아웃 함수 호출
-          className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-500"
-        >
+        <button onClick={signOut} // 버튼 클릭 시 로그아웃 함수 호출
+                className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-500">
           로그아웃
         </button>
       </div>
