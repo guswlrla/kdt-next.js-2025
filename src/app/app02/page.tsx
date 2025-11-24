@@ -2,7 +2,7 @@ export default function App01Page() {
   return (
     <div className="w-full felx flex-col justify-start">
       <h1 className="text-2xl font-bold m-5">오늘의 맛집 추천</h1>
-      <div className="flex flex-col w-70 border rounded-sm bg-gray-50 text-gray-700 p-5">
+      <div className="flex flex-col w-70 border rounded-sm bg-gray-50 text-gray-700 p-5 m-5">
         <h2 className="text-xl font-bold">맛있는 파스타 집</h2>
         <p>방금 추천받은 따끈따끈한 맛집!</p>
       </div>

@@ -26,7 +26,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className='w-full h-screen flex flex-col overflow-y-hidden'>
           <Header />
-          <main className='container mx-auto flex flex-col grow overflow-y-auto'>
+          <main className='flex flex-col grow overflow-y-auto'>
             {children}
             {/* 내가 만든 컴포넌트가 children */}
           </main>

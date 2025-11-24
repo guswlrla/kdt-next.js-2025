@@ -12,8 +12,8 @@ export default function App01Layout({
         <nav>
           <ul>
             <li className="mb-2"> <Link href="/app01/junggu">중구</Link></li>
-            <li className="mb-2">동구</li>
-            <li className="mb-2">서구</li>
+            <li className="mb-2"><Link href="/app01/donggu">동구</Link></li>
+            <li className="mb-2"><Link href="/app01/seogu">서구</Link></li>
           </ul>
         </nav>
       </aside>
