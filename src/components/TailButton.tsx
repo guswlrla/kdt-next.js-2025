@@ -31,7 +31,7 @@ type BtColor = keyof typeof BTStyle; // keyof는 type BtColor = 'blue' | 'orange
 interface TailButtonProps {
   color : BtColor,
   caption : string,
-  onHandle : () => void
+  onHandle? : () => void
 }
 export default function TailButton({color, caption, onHandle} : TailButtonProps) {
   const btstyle = BTStyle[color];

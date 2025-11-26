@@ -18,7 +18,7 @@ export default function FestivalContents() {
 
   return (
     <div className="w-full flex flex-col justify-start items-center">
-        <h1 className="w-full text-2xl font-bold p-5 mt-10 mb-5">{contents?.TITLE}</h1>
+      <h1 className="w-full text-2xl font-bold p-5 mt-10 mb-5">{contents?.TITLE}</h1>
       <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="w-full h-90 flex flex-col justify-start items-center overflow-hidden border rounded-2xl shadow-sm bg-white border-gray-200">
           <img className="rounded-2xl w-full h-full object-cover" src={contents?.MAIN_IMG_THUMB} />

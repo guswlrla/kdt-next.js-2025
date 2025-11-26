@@ -24,7 +24,11 @@ export default function Header() {
           </li>
           <li>|</li>
           <li>
-            <Link href='/todolist'>Todo</Link>
+            <Link href='/todolist_json'>Todo</Link>
+          </li>
+          <li>|</li>
+          <li>
+            <Link href='/restaurant'>맛집</Link>
           </li>
           </>}
         </ul>
