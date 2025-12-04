@@ -29,7 +29,7 @@ export default async function RestaurantDetail({ params } : RestaurantDetailProp
         <p className='text-gray-700'>{restaurant?.GUGUN_NM}</p>
       </div>
       <div className='rounded-lg mt-4 shadow bg-white border border-gray-200'>
-        <img className='rounded-lg' src={restaurant?.MAIN_IMG_NORMAL ? restaurant?.MAIN_IMG_NORMAL : ''}/>
+        <img className='rounded-lg' src={restaurant?.MAIN_IMG_NORMAL ? restaurant?.MAIN_IMG_NORMAL : ""}/>
       </div>
       <div className='rounded-lg mt-4 shadow bg-white border border-gray-200'>
         <div className='p-5 grid grid-cols-2 gap-4'>
